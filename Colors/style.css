@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toe {
+    padding-top: 10%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+}
+
+.block {
+    font-size: 126px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.win {
+    display: flex;
+    justify-content: center;
+}
